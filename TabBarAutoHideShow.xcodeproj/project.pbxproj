@@ -12,6 +12,7 @@
 		69F0410821FAAAE600ED2058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F0410621FAAAE600ED2058 /* Main.storyboard */; };
 		69F0410A21FAAAE700ED2058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F0410921FAAAE700ED2058 /* Assets.xcassets */; };
 		69F0410D21FAAAE700ED2058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F0410B21FAAAE700ED2058 /* LaunchScreen.storyboard */; };
+		69F0411521FAAB4000ED2058 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0411421FAAB4000ED2058 /* Tab1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		69F0410921FAAAE700ED2058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F0410C21FAAAE700ED2058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69F0410E21FAAAE700ED2058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0411421FAAB4000ED2058 /* Tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				69F0410221FAAAE600ED2058 /* AppDelegate.swift */,
 				69F0410421FAAAE600ED2058 /* ViewController.swift */,
+				69F0411421FAAB4000ED2058 /* Tab1ViewController.swift */,
 				69F0410621FAAAE600ED2058 /* Main.storyboard */,
 				69F0410921FAAAE700ED2058 /* Assets.xcassets */,
 				69F0410B21FAAAE700ED2058 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F0411521FAAB4000ED2058 /* Tab1ViewController.swift in Sources */,
 				69F0410521FAAAE600ED2058 /* ViewController.swift in Sources */,
 				69F0410321FAAAE600ED2058 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UXRZVALXF;
 				INFOPLIST_FILE = TabBarAutoHideShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2UXRZVALXF;
 				INFOPLIST_FILE = TabBarAutoHideShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
