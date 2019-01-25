@@ -38,7 +38,7 @@
         <!--Tab1 View Controller-->
         <scene sceneID="TWb-UU-F4Y">
             <objects>
-                <viewController id="7LG-d9-gVc" customClass="Tab1ViewController" customModule="TabBarTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7LG-d9-gVc" customClass="Tab1ViewController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qeD-DR-m21">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1067"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="75n-F7-qxz">
             <objects>
-                <tabBarController id="pRq-iD-hog" customClass="CUITabBarController" customModule="TabBarTest" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="pRq-iD-hog" customClass="CUITabBarController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Jj-zf-QLV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -110,11 +110,11 @@
             </objects>
             <point key="canvasLocation" x="1031" y="133"/>
         </scene>
-        <!--Item 1-->
+        <!--Navigation Controller-->
         <scene sceneID="TD7-hy-dIR">
             <objects>
                 <navigationController id="dcE-od-QEd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="VZc-es-Enc"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="VZc-es-Enc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WW4-9p-y7I">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
