@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pRq-iD-hog">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,34 +11,9 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecf-ua-c4P">
-                                <rect key="frame" x="87" y="192" width="201" height="157"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="pRq-iD-hog" kind="show" id="gjl-c9-HQl"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="140" y="132.68365817091455"/>
-        </scene>
-        <!--Tab1 View Controller-->
         <scene sceneID="TWb-UU-F4Y">
             <objects>
-                <viewController id="7LG-d9-gVc" customClass="Tab1ViewController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7LG-d9-gVc" customClass="ViewController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qeD-DR-m21">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1067"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,9 +23,27 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ah-AU-B6R">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1047"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Up To Hide Bar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx4-Tk-U41">
+                                                <rect key="frame" x="71" y="100" width="233.5" height="29"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Down To Show Bar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oF5-3N-FHf">
+                                                <rect key="frame" x="49" y="918" width="277" height="29"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.15686274510000001" green="0.76862745099999996" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1047" id="KX3-d6-7WV"/>
+                                            <constraint firstItem="Vx4-Tk-U41" firstAttribute="top" secondItem="2ah-AU-B6R" secondAttribute="top" constant="100" id="M6V-Om-sJ4"/>
+                                            <constraint firstItem="oF5-3N-FHf" firstAttribute="centerX" secondItem="2ah-AU-B6R" secondAttribute="centerX" id="rHb-Vv-dSR"/>
+                                            <constraint firstItem="Vx4-Tk-U41" firstAttribute="centerX" secondItem="2ah-AU-B6R" secondAttribute="centerX" id="t6h-LL-uLj"/>
+                                            <constraint firstAttribute="bottom" secondItem="oF5-3N-FHf" secondAttribute="bottom" constant="100" id="uOj-7k-QlT"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -90,7 +83,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="75n-F7-qxz">
             <objects>
-                <tabBarController id="pRq-iD-hog" customClass="CUITabBarController" customModule="TabBarAutoHideShow" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="pRq-iD-hog" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Jj-zf-QLV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
