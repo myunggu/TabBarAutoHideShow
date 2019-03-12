@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		699F489A22169E4C0005D41F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
-		69F040FF21FAAAE600ED2058 /* TabBarAutoHideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAutoHideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F040FF21FAAAE600ED2058 /* TabBarAutoHideShowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarAutoHideShowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F0410221FAAAE600ED2058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F0410721FAAAE600ED2058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69F0410921FAAAE700ED2058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		69F040F621FAAAE600ED2058 = {
 			isa = PBXGroup;
 			children = (
-				69F0410121FAAAE600ED2058 /* TabBarAutoHideShow */,
+				69F0410121FAAAE600ED2058 /* TabBarAutoHideShowDemo */,
 				69F0410021FAAAE600ED2058 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		69F0410021FAAAE600ED2058 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69F040FF21FAAAE600ED2058 /* TabBarAutoHideShow.app */,
+				69F040FF21FAAAE600ED2058 /* TabBarAutoHideShowDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69F0410121FAAAE600ED2058 /* TabBarAutoHideShow */ = {
+		69F0410121FAAAE600ED2058 /* TabBarAutoHideShowDemo */ = {
 			isa = PBXGroup;
 			children = (
 				69F0410221FAAAE600ED2058 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				69F0410E21FAAAE700ED2058 /* Info.plist */,
 				699F489A22169E4C0005D41F /* demo.gif */,
 			);
-			path = TabBarAutoHideShow;
+			path = TabBarAutoHideShowDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69F040FE21FAAAE600ED2058 /* TabBarAutoHideShow */ = {
+		69F040FE21FAAAE600ED2058 /* TabBarAutoHideShowDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69F0411121FAAAE700ED2058 /* Build configuration list for PBXNativeTarget "TabBarAutoHideShow" */;
+			buildConfigurationList = 69F0411121FAAAE700ED2058 /* Build configuration list for PBXNativeTarget "TabBarAutoHideShowDemo" */;
 			buildPhases = (
 				69F040FB21FAAAE600ED2058 /* Sources */,
 				69F040FC21FAAAE600ED2058 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TabBarAutoHideShow;
+			name = TabBarAutoHideShowDemo;
 			productName = TabBarAutoHideShow;
-			productReference = 69F040FF21FAAAE600ED2058 /* TabBarAutoHideShow.app */;
+			productReference = 69F040FF21FAAAE600ED2058 /* TabBarAutoHideShowDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69F040FA21FAAAE600ED2058 /* Build configuration list for PBXProject "TabBarAutoHideShow" */;
+			buildConfigurationList = 69F040FA21FAAAE600ED2058 /* Build configuration list for PBXProject "TabBarAutoHideShowDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69F040FE21FAAAE600ED2058 /* TabBarAutoHideShow */,
+				69F040FE21FAAAE600ED2058 /* TabBarAutoHideShowDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -287,17 +287,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UXRZVALXF;
-				INFOPLIST_FILE = TabBarAutoHideShow/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBarAutoHideShowDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinvee.TabBarAutoHideShow;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.TabBarAutoHideShowDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,24 +306,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UXRZVALXF;
-				INFOPLIST_FILE = TabBarAutoHideShow/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBarAutoHideShowDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinvee.TabBarAutoHideShow;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.TabBarAutoHideShowDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69F040FA21FAAAE600ED2058 /* Build configuration list for PBXProject "TabBarAutoHideShow" */ = {
+		69F040FA21FAAAE600ED2058 /* Build configuration list for PBXProject "TabBarAutoHideShowDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69F0410F21FAAAE700ED2058 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69F0411121FAAAE700ED2058 /* Build configuration list for PBXNativeTarget "TabBarAutoHideShow" */ = {
+		69F0411121FAAAE700ED2058 /* Build configuration list for PBXNativeTarget "TabBarAutoHideShowDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69F0411221FAAAE700ED2058 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TabBarAutoHideShow.xcodeproj">
+      location = "self:/Users/myunggukim/Desktop/TabBarAutoHideShow/TabBarAutoHideShowDemo.xcodeproj">
    </FileRef>
 </Workspace>
